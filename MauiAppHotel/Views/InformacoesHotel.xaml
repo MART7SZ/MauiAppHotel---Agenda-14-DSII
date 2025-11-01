@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.InformacoesHotel"
+             Title="Informacoes do hotel São João:"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black">
+
+    <VerticalStackLayout Padding="35" Spacing="20" VerticalOptions="Center">
+
+        <Label Text="MauiAppHotel"
+               FontSize="35"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center" />
+
+        <BoxView HeightRequest="2" Color="darkgreen" />
+
+        <Label Text="Endereço: Av. Rio Grande, Número 7632."
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="White"
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="A hospedagem inicia às meio-dia do primeiro dia contratado no App."
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="White"
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="A hospedagem encerra às 11 horas da manhã do último dia contratado no App."
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="White"
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="Café da manhã almoço e janta são inclusos na hospedagem. Outras refeições (pagas) estão disponíveis na lanchonete do hotel."
+         FontSize="18"
+         HorizontalOptions="Center"
+         TextColor="White"
+         HorizontalTextAlignment="Center" />
+    </VerticalStackLayout>
+</ContentPage>
